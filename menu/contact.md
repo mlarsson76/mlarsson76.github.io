@@ -4,4 +4,4 @@ title: Contact
 permalink: /contact
 ---
 
-If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=%40paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new)
+If you want to get in touch with me to discuss your situation and needs please contact me via LinkedIn. You can find my profile [here](https://www.linkedin.com/in/magnuslarsson76/)
