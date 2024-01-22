@@ -1,7 +1,7 @@
 ---
 layout: contact
-title: "Contact Us"
-description : "this is meta description"
+title: "Contact Me"
+description : "Use the form to send a message to me."
 image: "/assets/images/contact.svg"
 ---
 
