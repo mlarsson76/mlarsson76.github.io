@@ -1,7 +1,7 @@
 ####################### banner #######################################
 banner:
   enable: true
-  title: "Hi, I'm Magnus. <br> I help customers with cybersecurity and development projects."
+  title: "Hi,<br> I help companies with cybersecurity and development projects."
   #image: "/assets/images/banner/illustration.svg"
   image: "/assets/images/author/magnus.png"
   bg_image: "/assets/images/banner/banner-bg.svg"
