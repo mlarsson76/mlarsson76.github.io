@@ -1,29 +1,61 @@
-# Site Build Settings
+baseurl: "/" # the subpath of your site, e.g. blog/
+url: "https://magnuslarsson.net" # the base hostname & protocol for your site, e.g. http://example.com/
 
-# Jekyll-paginate-v2 configuration
-#  pagination:
-#   enabled: true
-#   per_page: 5
-#   permalink: '/page/:num/'
-#   title: ':title - page :num of :max'
-#   limit: 0
-#   sort_field: 'date'
-#   sort_reverse: true
+title: magnuslarsson.net
+description: >- # this means to ignore newlines until "baseurl:"
+  Occasionally writing about cybersecurity and tech.
 
-# jekyll-paginate configuration
-paginate:            5
+#################### Comment Section (Disqus) ################
+disqus_shortname: "" # Add your shortname for Disqus Comment. For example : mr-brown
+
+# Scss Directory
+sass:
+  sass_dir: assets/scss
+  style: compressed
 
 # Build settings
-markdown:            kramdown
-highlighter:         rouge
-permalink:           /:title
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll/tagging
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           'Magnus Larsson'
-description:	       'CTO | Infosec Manager | Tech Lead'
-author:              'Magnus'
+paginate: 6
+paginate_path: "/page/:num"
 
-# RSS 2.0 can be used instead of Atom by uncommenting following two lines
-#feed:
-#  path: rss-feed.xml
+# include
+include:
+  - _pages
+  - _authors
+
+# Pages Path
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+
+  - scope:
+      path: "_authors"
+    values:
+      permalink: /author/:basename:output_ext
+      layout: author
+
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      permalink: post/:title:output_ext
+      layout: post
+
+# Tags
+tag_page_dir: tag
+tag_page_layout: tags
+tag_permalink_style: pretty
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
