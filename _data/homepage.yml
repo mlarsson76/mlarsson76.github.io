@@ -3,7 +3,7 @@ banner:
   enable: true
   title: "Hi,<br> I help companies with cybersecurity and development projects."
   #image: "/assets/images/banner/illustration.svg"
-  image: "/assets/images/author/magnus.png"
+  image: "/assets/images/author/Magnus.png"
   bg_image: "/assets/images/banner/banner-bg.svg"
 
 ######################## call to action ###############################
