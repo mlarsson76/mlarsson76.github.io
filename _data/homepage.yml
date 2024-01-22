@@ -2,7 +2,7 @@
 banner:
   enable: true
   title: "I help companies deliver cybersecurity and development projects."
-  subtitle: "<br><br><br>Magnus Larsson<br>CTO | Security Manager | Technical Project Lead" 
+  subtitle: "<br><br>Magnus Larsson<br>CTO | Security Manager | Technical Project Lead" 
   #image: "/assets/images/banner/illustration.svg"
   image: "/assets/images/author/Magnus.png"
   bg_image: "/assets/images/banner/banner-bg.svg"
