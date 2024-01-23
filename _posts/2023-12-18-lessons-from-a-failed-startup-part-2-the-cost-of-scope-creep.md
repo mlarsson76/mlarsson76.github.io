@@ -33,7 +33,7 @@ I get it, in a startup it is impossible to foresee everything and there's a lot 
 
 The idea of MVP in our case translated to Maximum Viable Product which I believe is rather common, but also an expensive error to make.
 
-As stated in the [previous post](lessons-from-a-failed-startup-part-1-embracing-failure-as-a-learning-opportunity) our user forecasts and therefore requirements on the product was rather big. And without any data to back up believes about user behavior, performance peaks etc, we we're only guessing what was required to meet these requirements.
+As stated in the [previous post](lessons-from-a-failed-startup-part-1-embracing-failure-as-a-learning-opportunity) our user forecasts and therefore requirements on the product was rather big. And without any data to back up believes about user behaviour, performance peaks etc, we we're only guessing what was required to meet these requirements.
 
 The lesson is as painfully simple as it is well known. Start with small scale and make sure the customers really want the product. Do not try to take over the world day 1. Even if it is tempting.
 
